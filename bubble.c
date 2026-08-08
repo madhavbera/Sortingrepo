@@ -1,8 +1,15 @@
 #include<stdio.h>
+#define max 5
 int main()
 {
-    int a[]={1,4,2,5,3};
-    int n=sizeof(a)/sizeof(a[0]);
+    int a[max];
+    int n=sizeof(a)/sizeof(int);
+    printf("Enter the 5 elements\n");
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+
     printf("Display the given unsorted data:");
     for(int i=0;i<n;i++)
     {
