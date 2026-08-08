@@ -26,6 +26,7 @@ int main()
     {
         printf("%d ",a[i]);
     }
+    printf("hellow");
 
     return 0;
 
