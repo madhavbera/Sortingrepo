@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "global.c"
 #define max 5
 int main()
 {
@@ -26,5 +27,6 @@ int main()
     {
         printf("%d ",a[i]);
     }
+    printf("Sum:%d",sum(5,6));
     return 0;
 }
