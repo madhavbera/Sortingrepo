@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "global.c"
+#include "global.c"//user defined file
 #define max 5
 int main()
 {
