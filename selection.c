@@ -7,6 +7,7 @@ int main()
     int a[5];
     // int n=sizeof(a)/sizeof(int);
     printf("Enter the 5 elements\n");
+    int n=5;
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
