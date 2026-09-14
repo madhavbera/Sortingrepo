@@ -1,7 +1,25 @@
 button{
-    width: 100px;
-    height: 20px;
+    /* width: 100px;
+    height: 20px; */
+    justify-content: center
 }
 div{
     padding: 25%;
+    justify-content: center;
+}
+.one{
+    color:pink;
+}
+.two{
+    color:brown;
+}
+.three{
+    color: blue;
+}
+body{
+    background-color: black;
+}
+img{
+height: 300px;
+width: 300px;
 }
